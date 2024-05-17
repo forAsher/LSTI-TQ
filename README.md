@@ -19,8 +19,8 @@ Language: Python
 **python generateData.py  -t [type] -n [dataNumber] -d [deviceNumber].**
 
 #### Parameters:
-'type': 'Type: Uniform, Normal. Data distribution type, default value = Normal',
-                    'dataNumber': 'Number of traffic spatiotemporal datasets, default value = 100,000',
-                    'deviceNumber': 'Number of traffic devices, default value = 10,000'
+- 'type': 'Type: Uniform, Normal. Data distribution type, default value = Normal',
+- 'dataNumber': 'Number of traffic spatiotemporal datasets, default value = 100,000',
+- 'deviceNumber': 'Number of traffic devices, default value = 10,000'
 
 # 中文
