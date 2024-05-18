@@ -30,7 +30,7 @@ python generateData.py -t Normal -n 100000 -d 10000
 ```
 
 
-## Build Index AND Complete Query
+## Build Index And Complete Query
 use command to run the buildIndex.py file to train models on traffic spatiotemporal data
 ```
 python buildIndex.py
@@ -38,7 +38,5 @@ python buildIndex.py
 
 use command to run the scopeQuery.py file using the command. Using index to complete query on traffic spatiotemporal data
 ```
-python scopeQuery.py -sn -sa -en -ea -st -et
+python scopeQuery.py
 ```
-
-# 中文
