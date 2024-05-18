@@ -13,10 +13,13 @@ Language: Python
 - modelParameter/：auxiliary files for neural network models
 
 ## HOW TO RUN
-#### First, you need to install python3.9.x and package tensorflow, pandas, numpy.
-#### Second, use command to run the generateData.py file, that is,
+First, you need to install python3.9.x and package tensorflow, pandas, numpy.
 
-**python generateData.py  -t [type] -n [dataNumber] -d [deviceNumber].**
+Second, use command to run the generateData.py file, that is,
+
+```
+python generateData.py -t [type] -n [dataNumber] -d [deviceNumber].**
+```
 
 #### Parameters:
 - 'type': 'Type: Uniform, Normal. Data distribution type, default value = Normal',
