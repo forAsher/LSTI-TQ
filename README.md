@@ -13,16 +13,21 @@ Language: Python
 - modelParameter/：auxiliary files for neural network models
 
 ## HOW TO RUN
-> First, you need to install python3.9.x and package tensorflow, pandas, numpy.
+First, you need to install python3.9.x and package tensorflow, pandas, numpy.
 
-> Second, use command to run the generateData.py file to generate traffic spatiotemporal data and monitoring device information   
-```python generateData.py -t [type] -n [dataNumber] -d [deviceNumber]```  
+Second, use command to run the generateData.py file to generate traffic spatiotemporal data and monitoring device information
+```
+python generateData.py -t [type] -n [dataNumber] -d [deviceNumber]
+```
 
-> Parameters:  
-'type': 'Type: Uniform, Normal. Data distribution type, default value = Normal',  
-'dataNumber': 'Number of traffic spatiotemporal datasets, default value = 100,000',  
-'deviceNumber': 'Number of traffic devices, default value = 10,000'
+Parameters:
+- 'type': 'Type: Uniform, Normal. Data distribution type, default value = Normal',
+- 'dataNumber': 'Number of traffic spatiotemporal datasets, default value = 100,000',
+- 'deviceNumber': 'Number of traffic devices, default value = 10,000'
 
-> Example:  
-```python generateData.py -t Normal -n 100000 -d 10000```
+Example:
+```
+python generateData.py -t Normal -n 100000 -d 10000
+```
+
 # 中文
