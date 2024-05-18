@@ -14,6 +14,9 @@ from Trained_NN import AbstractNN
 cx = 8
 cy = 8
 
+# query scope
+queryBounds = [115.80346, 39.546709, '2023-03-05 06:00:00', 116.505747, 39.927429, '2023-03-05 06:05:00']
+
 mergeOrderData = pd.read_csv("./mergeData/mergeOrderDataX"+str(cx)+"Y"+str(cy)+".csv", header=None)
 mergeOrderData.columns = ['Lng','Lat','platenoNum','cellIndex','recv_date','index']
 
@@ -226,9 +229,6 @@ def err_call_back(err):
 # main function
 if __name__=='__main__':
     warnings.filterwarnings('ignore')
-    #queryBounds =  [116.505747, 39.927429, '2023-03-05 07:00:00', 116.605747, 39.997429, '2023-03-05 07:30:00']
-    #queryBounds = [115.80346, 39.546709, '2023-03-05 07:00:00', 116.505747, 39.927429, '2023-03-05 07:30:00']
-    queryBounds = [115.80346, 39.546709, '2023-03-05 07:00:00', 116.505747, 39.927429, '2023-03-05 09:00:00']
 
     lng = DataFrame([queryBounds[0], queryBounds[3]])
     lat = DataFrame([queryBounds[1], queryBounds[4]])
