@@ -15,13 +15,13 @@ Language: Python
 ## HOW TO RUN
 First, you need to install python3.9.x and package tensorflow, pandas, numpy.
 
-Second, use command to run the generateData.py file, that is,
+Second, use command to run the generateData.py file to generate traffic spatiotemporal data and monitoring device information
 
 ```
-python generateData.py -t [type] -n [dataNumber] -d [deviceNumber].**
+python generateData.py -t [type] -n [dataNumber] -d [deviceNumber].
 ```
 
-#### Parameters:
+Parameters:
 - 'type': 'Type: Uniform, Normal. Data distribution type, default value = Normal',
 - 'dataNumber': 'Number of traffic spatiotemporal datasets, default value = 100,000',
 - 'deviceNumber': 'Number of traffic devices, default value = 10,000'
