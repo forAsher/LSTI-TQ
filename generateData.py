@@ -82,7 +82,7 @@ def main(argv):
     # 向上取整
     timeNum = math.ceil(dataNumber/dataNumberPerSecond)
 
-    with open("./trafficData/trafficData.csv", 'w', encoding="UTF-8",
+    with open("./trafficData/data.csv", 'w', encoding="UTF-8",
               newline='') as csvFile:
         csv_writer = csv.writer(csvFile)
         for i in range(timeNum):
